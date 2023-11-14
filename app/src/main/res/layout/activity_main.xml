@@ -20,23 +20,29 @@
             android:layout_weight=".25"
             tools:srcCompat="@tools:sample/avatars" />
 
-        <EditText
-            android:id="@+id/editTextText2"
-            android:layout_width="0dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight=".75"
-            android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/editTextText"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight=".75"
-            android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            <EditText
+                android:id="@+id/editTextText2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".75"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Name" />
+
+            <EditText
+                android:id="@+id/editTextText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".75"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Name" />
+        </LinearLayout>
 
     </LinearLayout>
 

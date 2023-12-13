@@ -1,4 +1,4 @@
-package com.example.disenyo14_11_2023
+package com.example.disenyoLayouts
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -2,6 +2,7 @@ package com.example.disenyoLayouts
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.disenyo14_11_2023.R
 
 class Actividad6 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
